@@ -61,4 +61,4 @@ We will be utilising [Mapbox Studio](https://www.mapbox.com/mapbox-studio), [Map
 ## Cooperation: 
 - We have already created a new public GitHub repository for our final project to help with file/data management. 
 - We are using Discord as our mean of communication.
-- We seek to find the most feasible way to involve every member in each stage of the project. The division of labor will be reflected upon and assessed again accordingly at the end of the project to correctly evaluate contribution.
+- We seek to find the most feasible way to involve every member in each stage of the project. The division of labor will be reflected upon and assessed again accordingly at the end of the project to correctly evaluate contribution. While maintaining flexibility, we ensure equitable involvement and ensure both efficiency and effectiveness.
