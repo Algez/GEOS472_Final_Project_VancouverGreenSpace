@@ -4,15 +4,13 @@
 
 Eric Chong, Daniel Dong, Jo Nguyen
 
-## Intellectual justification:  
+##  Intellectual Justification:  
 
 The intellectual motivation behind this project focuses on addressing the intersecting challenges of urban accessibility and environmental justice within Vancouver. By creating an accessibility map that helps to illustrate TransLink bus routes onto green spaces, we aim to highlight areas with inadequate access to nature, particularly amongst marginalized communities. Building upon established basic urban planning principles and web cartography methodologies learnt in GEOS 472, this initiative works as a call to action with insights that can be utilized towards future development plans and for planners to reference when looking to strategically implement green space based on spatial distribution - fostering a more inclusive and sustainable urban environment. Ultimately, this project represents a vital step towards fostering equitable accessibility to green spaces.
 
-## Research question(s):  
 
-A clear statement of the question(s) you hope to address (or pose for the reader) in some fashion.
 
-## Data Sources (Tentative):  
+## Tentative Data Sources:  
 
 - [Real-time Transit Information (RTTI)-Translink API](https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/rtti)
 
