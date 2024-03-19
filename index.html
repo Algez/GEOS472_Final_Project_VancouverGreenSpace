@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet" />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+        <script id="search-js" defer="" src="https://api.mapbox.com/search-js/v1.0.0-beta.18/web.js"></script>
+        <script src="./p5.min.js"></script>
+        <style>
+                            #map { position: absolute; top: 0; bottom: 0; width: 100%;  }
+                      .mapboxgl-popup {
+            max-width: 400px;
+            font: 12px/20px 'Arial', Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+      <div id='map'></div>
+        <script>
+            const ACCESS_TOKEN = "pk.eyJ1IjoiZGFuaWVsLWQiLCJhIjoiY2x0YW51aG5yMWt3cDJrbzdmZHBzcG1yYyJ9.w_xZ3fK-ZF5QzrWnk9pZjw";
+            mapboxgl.accessToken = ACCESS_TOKEN;
+
+            const map = new mapboxgl.Map({
+                container: "map", // container ID
+                style: "mapbox://styles/daniel-d/cltuohi0n01cv01r5blnjgtg2", // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+                center: [-123.249999, 49.2666656], // starting position
+                zoom: 13.0, // starting zoom
+                pitch: 50,
+                bearing: 0,
+            });
+            map.on("style.load", () => {
+                map.addSource("mapbox-dem", {
+                    type: "raster-dem",
+                    url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+                    tileSize: 512,
+                    maxzoom: 14,
+                });
+                // add the DEM source as a terrain layer with exaggerated height
+                map.setTerrain({ source: "mapbox-dem", exaggeration: 1.5 });
+            });
+                      map.on("load", () => {
+map.getCanvas().style.cursor = "default";
+                      });
+        </script>
+    </body>
+</html>
