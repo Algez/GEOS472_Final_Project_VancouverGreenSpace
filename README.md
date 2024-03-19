@@ -56,8 +56,6 @@ We will be utilising [Mapbox Studio](https://www.mapbox.com/mapbox-studio), [Map
 	4. Or maybe host all files on an online tile server...
 - We intend to use Translink's API to query all information related to Vancouver's transit system (i.e. live bus locations, coordinates for bus stops and routes, etc.). 
 
-**Questions:  Focused questions you have for me and/or for yourselves moving forward!**
-
 ## Cooperation: 
 - We have already created a new public GitHub repository for our final project to help with file/data management. 
 - We are using Discord as our mean of communication.
