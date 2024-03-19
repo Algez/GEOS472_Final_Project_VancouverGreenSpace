@@ -12,10 +12,15 @@ A clear statement of the question(s) you hope to address (or pose for the reader
 ## Data Sources (Tentative):  
 
 [Real-time Transit Information (RTTI)-Translink API](https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/rtti)
+
 [LiDAR 2022](https://opendata.vancouver.ca/explore/dataset/lidar-2022/information/)
+
 [Greenways](https://opendata.vancouver.ca/explore/dataset/greenways/information/?location=14,49.25169,-123.13447)
+
 [Parks](https://opendata.vancouver.ca/explore/dataset/parks-polygon-representation/map/?location=13,49.2524,-123.11717)
+
 [Non-Market Housing](https://opendata.vancouver.ca/explore/dataset/non-market-housing/map/?location=14,49.25613,-123.11747)
+
 ## Potential maps and geographical visualizations:  
 What might you visualize? Why? How? What role for interactivity?
 
